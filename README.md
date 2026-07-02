@@ -1,8 +1,8 @@
 ![logo](https://github.com/csakib049/csakib049/blob/main/5eab428a1c27561d1d512c2926d601d5.jpg.png)  
 
 
-# 💫 About Me:
-Hi! I'm Sakib 👋 I love coding, building small projects, and learning new tech. Currently diving deep into MERN Stack  & backend stuff. 
+<h1 align="center">Hi 👋, I'm Md.Shahriar Chowdhury</h1>
+<h3 align="center">I love coding, building small projects, and learning new tech. Currently diving deep into MERN Stack  & backend stuff. </h3>
 
 
 ## 🌐 Socials:
