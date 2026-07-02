@@ -59,21 +59,21 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      **5th International Robo Tech Olympiad 2025 — 2nd Runner-Up**<br>
+      <b>5th International Robo Tech Olympiad 2025 — 2nd Runner-Up</b><br>
       <img src="./5th international robo tech olympiad 2025 2nd runnerUp.jpg" alt="5th international robo tech olympiad 2025 2nd runnerUp" width="280" />
     </td>
     <td align="center" width="50%">
-      **BrainStorming Prize Giving Ceremony 2025**<br>
+      <b>BrainStorming Prize Giving Ceremony 2025</b><br>
       <img src="./BrainStroming Price Giving ceremony 2025.jpg" alt="BrainStroming Price Giving ceremony 2025" width="280" />
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      **Mind Spark 2024 Champion**<br>
+      <b>Mind Spark 2024 Champion</b><br>
       <img src="./Mind spark 24 champion.jpg" alt="Mind spark 2024 champion" width="280" />
     </td>
     <td align="center" width="50%">
-      **National Robotics Championship 2025 — 3rd Runner-Up**<br>
+      <b>National Robotics Championship 2025 — 3rd Runner-Up</b><br>
       <img src="./National Robotics championship 2025   3rd runners up.jpg" alt="National Robotics championship 2025   3rd runners up" width="280" />
     </td>
   </tr>
@@ -107,29 +107,63 @@
 
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="130" viewBox="0 0 700 130">
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="160" viewBox="0 0 750 160">
   <defs>
-    <linearGradient id="qGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#667eea" />
-      <stop offset="100%" stop-color="#764ba2" />
+    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#16213e" stop-opacity="0.85" />
     </linearGradient>
+    <linearGradient id="qTxt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f093fb" />
+      <stop offset="50%" stop-color="#f5576c" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <filter id="qGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
 
-  <text x="25" y="55" fill="url(#qGrad)" font-size="40" font-family="Georgia,serif" opacity="0.25">&#x275D;</text>
+  <rect x="10" y="10" width="730" height="140" rx="15" fill="url(#qBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
 
-  <text x="65" y="55" fill="#c9d1d9" font-size="17" font-style="italic" font-family="Georgia,serif">
+  <text x="30" y="35" fill="#f093fb" font-size="12" opacity="0">&#x2726;
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0s" />
+  </text>
+  <text x="710" y="140" fill="#4facfe" font-size="10" opacity="0">&#x2726;
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="0.8s" />
+  </text>
+  <text x="680" y="28" fill="#f5576c" font-size="8" opacity="0">&#x2726;
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite" begin="1.5s" />
+  </text>
+
+  <text x="40" y="70" fill="url(#qTxt)" font-size="45" font-family="Georgia,serif" opacity="0.15">&#x275D;</text>
+
+  <text x="90" y="70" fill="url(#qTxt)" font-size="18" font-style="italic" font-family="Georgia,serif" filter="url(#qGlow)">
     He who makes a beast of himself gets rid of the pain of being a man.
-    <animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze" />
+    <animate attributeName="opacity" from="0" to="1" dur="3s" fill="freeze" />
   </text>
 
-  <text x="600" y="90" fill="#8b949e" font-size="14" font-family="Georgia,serif" text-anchor="end">
+  <text x="690" y="70" fill="url(#qTxt)" font-size="45" font-family="Georgia,serif" opacity="0" transform="translate(0, 10)">
+    &#x275E;
+    <animate attributeName="opacity" from="0" to="0.15" dur="1s" begin="2.5s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="1s" begin="2.5s" fill="freeze" />
+  </text>
+
+  <text x="650" y="115" fill="#a0a0a0" font-size="14" font-family="Georgia,serif" text-anchor="end">
     &#x2014; Samuel Johnson
-    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1s" fill="freeze" />
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="3s" fill="freeze" />
   </text>
 
-  <circle cx="350" cy="115" r="3" fill="url(#qGrad)">
-    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
-  </circle>
+  <line x1="655" y1="102" x2="655" y2="120" stroke="#4facfe" stroke-width="2" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="3s" />
+  </line>
+
+  <line x1="40" y1="132" x2="710" y2="132" stroke="url(#qTxt)" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="2s" />
+  </line>
 </svg>
 
 </div>
