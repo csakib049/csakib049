@@ -98,53 +98,11 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=csakib049&theme=tokyo-day" width="70%" />
 </p>
 
-<div align="center">
-
-
-
-
 <!--------------------------------------------------------------------- quote section  -------------------------------------------------------------------->
 
 
 <div align="center">
-
-
-  <!-- Quote line 1 -->
-  <text x="95" y="68" font-size="20" font-family="Georgia,serif" font-style="italic" fill="url(#qTxt)" filter="url(#qGlow)">
-    He who makes a beast of himself
-    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1s" fill="freeze"/>
-  </text>
-
-  <!-- Quote line 2 -->
-  <text x="95" y="98" font-size="20" font-family="Georgia,serif" font-style="italic" fill="url(#qTxt)" filter="url(#qGlow)">
-    gets rid of the pain of being a man.
-    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1.5s" fill="freeze"/>
-  </text>
-
-  <!-- Closing quote mark -->
-  <text x="690" y="70" font-size="50" font-family="Georgia,serif" fill="url(#qTxt)" opacity="0" transform="translate(0,10)">
-    &#x275E;
-    <animate attributeName="opacity" from="0" to="0.12" dur="1s" begin="2.5s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="1s" begin="2.5s" fill="freeze"/>
-  </text>
-
-  <!-- Author -->
-  <text x="650" y="125" font-size="15" font-family="Georgia,serif" fill="#b8c1ec" text-anchor="end">
-    &#x2014; Samuel Johnson
-    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="3s" fill="freeze"/>
-  </text>
-
-  <!-- Blinking cursor -->
-  <line x1="655" y1="112" x2="655" y2="130" stroke="#4facfe" stroke-width="2" stroke-linecap="round" opacity="0">
-    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="3s"/>
-  </line>
-
-  <!-- Decorative line -->
-  <line x1="50" y1="135" x2="700" y2="135" stroke="url(#qTxt)" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="2s"/>
-  </line>
-</svg>
-
+  <img src="./quote.png" alt="quote" width="100%">
 </div>
 
 
