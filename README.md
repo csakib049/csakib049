@@ -108,49 +108,6 @@
 
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="750" height="160" viewBox="0 0 750 160">
-  <defs>
-    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#16213e" stop-opacity="0.85"/>
-    </linearGradient>
-
-    <linearGradient id="qTxt" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f093fb"/>
-      <stop offset="50%" stop-color="#f5576c"/>
-      <stop offset="100%" stop-color="#4facfe"/>
-    </linearGradient>
-
-    <filter id="qGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <!-- Background card -->
-  <rect x="10" y="10" width="730" height="140" rx="20"
-        fill="url(#qBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1">
-    <animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze"/>
-  </rect>
-
-  <!-- Sparkles -->
-  <text x="30" y="35" fill="#f093fb" font-size="12" opacity="0">&#x2726;
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0s"/>
-  </text>
-  <text x="710" y="140" fill="#4facfe" font-size="10" opacity="0">&#x2726;
-    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
-  </text>
-  <text x="675" y="28" fill="#f5576c" font-size="8" opacity="0">&#x2726;
-    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite" begin="1.5s"/>
-  </text>
-
-  <!-- Opening quote mark -->
-  <text x="45" y="70" font-size="50" font-family="Georgia,serif" fill="url(#qTxt)" opacity="0">&#x275D;
-    <animate attributeName="opacity" from="0" to="0.15" dur="1.5s" begin="0.5s" fill="freeze"/>
-  </text>
 
   <!-- Quote line 1 -->
   <text x="95" y="68" font-size="20" font-family="Georgia,serif" font-style="italic" fill="url(#qTxt)" filter="url(#qGlow)">
