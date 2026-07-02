@@ -1,4 +1,4 @@
-﻿![logo](https://github.com/csakib049/csakib049/blob/main/ChatGPT%20Image%20Jul%202%2C%202026%2C%2006_01_07%20PM.png)  
+![logo](https://github.com/csakib049/csakib049/blob/main/ChatGPT%20Image%20Jul%202%2C%202026%2C%2006_01_07%20PM.png)  
 
 
 <h1 align="center">Hi 👋, I'm Md.Sakib Chowdhury</h1>
@@ -19,24 +19,32 @@
 
 
 
+<!-- About Me + GIF section  -->
 
+## 👨‍💻 About Me
 
-<p align = 'right'>
-<img align='right' src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="30%">
-</p>
- 
+<table>
+<tr>
+<td width="65%" valign="top">
 
- <!-- About Me -->
-<p align="left">
+<p>
 - 👋 Hi, I'm Md. Sakib Chowdhury, a Computer Science student and Full Stack Developer.<br>
 - 💻 I enjoy building web applications and solving real-world problems through code.<br>
 - 🌱 Currently exploring Backend Development and scalable system design.<br>
 - 🏆 Proud to have won multiple project showcase competitions with Team BUBT.<br>
 - 🤝 Always learning, experimenting, and contributing to the developer community.<br>
 - 🎯 Goal: Keep growing as a Software Engineer and build products that make an impact.<br>
-- ⚡ Fun Fact: I'm curious about AI and how it will shape the future of software development! 😄<br>
+- ⚡ Fun Fact: I'm curious about AI and how it will shape the future of software development! 😄
 </p>
- <!-- About Me -->
+
+</td>
+<td width="35%" align="center">
+
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="100%">
+
+</td>
+</tr>
+</table>
 
 
 
@@ -97,9 +105,34 @@
 
 <!-- quote section  -->
 
-> �He who makes a beast of himself gets rid of the pain of being a man.�
->
-> � **Samuel Johnson**
+<div align="center">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="130" viewBox="0 0 700 130">
+  <defs>
+    <linearGradient id="qGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#667eea" />
+      <stop offset="100%" stop-color="#764ba2" />
+    </linearGradient>
+  </defs>
+
+  <text x="25" y="55" fill="url(#qGrad)" font-size="40" font-family="Georgia,serif" opacity="0.25">&#x275D;</text>
+
+  <text x="65" y="55" fill="#c9d1d9" font-size="17" font-style="italic" font-family="Georgia,serif">
+    He who makes a beast of himself gets rid of the pain of being a man.
+    <animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze" />
+  </text>
+
+  <text x="600" y="90" fill="#8b949e" font-size="14" font-family="Georgia,serif" text-anchor="end">
+    &#x2014; Samuel Johnson
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1s" fill="freeze" />
+  </text>
+
+  <circle cx="350" cy="115" r="3" fill="url(#qGrad)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+</svg>
+
+</div>
 
 
 
