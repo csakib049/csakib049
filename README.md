@@ -40,7 +40,7 @@
 </td>
 <td width="35%" align="center">
 
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="100%">
+<img src="https://github.com/csakib049/csakib049/blob/main/giphy.gif" width="70%">
 
 </td>
 </tr>
