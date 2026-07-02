@@ -110,64 +110,82 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="750" height="160" viewBox="0 0 750 160">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1a1a2e"/>
-      <stop offset="100%" stop-color="#16213e"/>
+    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#16213e" stop-opacity="0.85"/>
     </linearGradient>
 
-    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="qTxt" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f093fb"/>
       <stop offset="50%" stop-color="#f5576c"/>
       <stop offset="100%" stop-color="#4facfe"/>
     </linearGradient>
+
+    <filter id="qGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Background -->
+  <!-- Background card -->
   <rect x="10" y="10" width="730" height="140" rx="20"
-        fill="url(#bg)"
-        stroke="#2d3748"
-        stroke-width="1.5"/>
+        fill="url(#qBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze"/>
+  </rect>
 
-  <!-- Opening quote -->
-  <text x="45" y="70"
-        font-size="50"
-        font-family="Georgia, serif"
-        fill="#ffffff"
-        opacity="0.15">
-        ❝
+  <!-- Sparkles -->
+  <text x="30" y="35" fill="#f093fb" font-size="12" opacity="0">&#x2726;
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0s"/>
+  </text>
+  <text x="710" y="140" fill="#4facfe" font-size="10" opacity="0">&#x2726;
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+  </text>
+  <text x="675" y="28" fill="#f5576c" font-size="8" opacity="0">&#x2726;
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite" begin="1.5s"/>
   </text>
 
-  <!-- Quote -->
-  <text x="95" y="68"
-        font-size="20"
-        font-family="Georgia, serif"
-        font-style="italic"
-        fill="url(#txt)">
+  <!-- Opening quote mark -->
+  <text x="45" y="70" font-size="50" font-family="Georgia,serif" fill="url(#qTxt)" opacity="0">&#x275D;
+    <animate attributeName="opacity" from="0" to="0.15" dur="1.5s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- Quote line 1 -->
+  <text x="95" y="68" font-size="20" font-family="Georgia,serif" font-style="italic" fill="url(#qTxt)" filter="url(#qGlow)">
     He who makes a beast of himself
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1s" fill="freeze"/>
   </text>
 
-  <text x="95" y="98"
-        font-size="20"
-        font-family="Georgia, serif"
-        font-style="italic"
-        fill="url(#txt)">
+  <!-- Quote line 2 -->
+  <text x="95" y="98" font-size="20" font-family="Georgia,serif" font-style="italic" fill="url(#qTxt)" filter="url(#qGlow)">
     gets rid of the pain of being a man.
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- Closing quote mark -->
+  <text x="690" y="70" font-size="50" font-family="Georgia,serif" fill="url(#qTxt)" opacity="0" transform="translate(0,10)">
+    &#x275E;
+    <animate attributeName="opacity" from="0" to="0.12" dur="1s" begin="2.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="1s" begin="2.5s" fill="freeze"/>
   </text>
 
   <!-- Author -->
-  <text x="650" y="125"
-        font-size="15"
-        font-family="Georgia, serif"
-        fill="#b8c1ec"
-        text-anchor="end">
-    — Samuel Johnson
+  <text x="650" y="125" font-size="15" font-family="Georgia,serif" fill="#b8c1ec" text-anchor="end">
+    &#x2014; Samuel Johnson
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="3s" fill="freeze"/>
   </text>
 
-  <!-- Bottom line -->
-  <line x1="50" y1="125" x2="620" y2="125"
-        stroke="url(#txt)"
-        stroke-width="1"
-        opacity="0.5"/>
+  <!-- Blinking cursor -->
+  <line x1="655" y1="112" x2="655" y2="130" stroke="#4facfe" stroke-width="2" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="3s"/>
+  </line>
+
+  <!-- Decorative line -->
+  <line x1="50" y1="135" x2="700" y2="135" stroke="url(#qTxt)" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+  </line>
 </svg>
 
 </div>
