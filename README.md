@@ -1,4 +1,4 @@
-![logo](https://github.com/csakib049/csakib049/blob/main/Gemini_Generated_Image_sa73l3sa73l3sa73.png)  
+![logo](https://github.com/csakib049/csakib049/blob/main/ChatGPT%20Image%20Jul%202%2C%202026%2C%2006_01_07%20PM.png)  
 
 
 <h1 align="center">Hi 👋, I'm Md.Sakib Chowdhury</h1>
@@ -19,9 +19,12 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
----
-[![](https://visitcount.itsvg.in/api?id=csakib049&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=csakib049&show_icons=true&locale=en&layout=compact" alt="csakib049" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=csakib049&" alt="csakib049" /></p>
+
+
+---
+[![](https://visitcount.itsvg.in/api?id=csakib049&icon=0&color=0)](https://visitcount.itsvg.in)
