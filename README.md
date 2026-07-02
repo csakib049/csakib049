@@ -1,4 +1,4 @@
-![logo](https://github.com/csakib049/csakib049/blob/main/5eab428a1c27561d1d512c2926d601d5.jpg.png)  
+![logo](https://github.com/csakib049/csakib049/blob/main/Gemini_Generated_Image_sa73l3sa73l3sa73.png)  
 
 
 <h1 align="center">Hi 👋, I'm Md.Sakib Chowdhury</h1>
