@@ -98,6 +98,12 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=csakib049&theme=tokyo-day" width="70%" />
 </p>
 
+
+<!-----------------------------------------------------contribution snake animation----------------------------------------------------------------------->
+
+![snake gif](https://github.com/csakib049/csakib049/blob/output/github-snake-dark.svg)
+
+
 <!--------------------------------------------------------------------- quote section  -------------------------------------------------------------------->
 
 
