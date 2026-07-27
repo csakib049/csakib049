@@ -82,6 +82,31 @@
 
 
 
+## 📺 MEDIA
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <b>Ajker potrika</b><br>
+      <img src="./Ajker potrika.png" alt="Ajker potrika" width="280" />
+    </td>
+    <td align="center" width="33%">
+      <b>Somokal</b><br>
+      <img src="./Somokal.png" alt="Somokal" width="280" />
+    </td>
+    <td align="center" width="33%">
+      <b>kal bela</b><br>
+      <img src="./kal bela.png" alt="kal bela" width="280" />
+    </td>
+  </tr>
+</table>
+
+🔗 **Somokal**: [https://samakal.com/education/article/301784](https://samakal.com/education/article/301784)
+
+🔗 **Ajker Potrika**: [https://www.ajkerpatrika.com/education/campus/ajporgtyihtp9](https://www.ajkerpatrika.com/education/campus/ajporgtyihtp9)
+
+
+
 <!-- Contribution Statistics and Visuals -->
 
 
