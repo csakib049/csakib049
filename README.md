@@ -6,8 +6,10 @@
 
 <p align="center">
   <a href="https://protfolio-frontend-prv2.onrender.com/">
-    <img src="https://img.shields.io/badge/🌐_View_My_Portfolio-000000?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio">
+    <img src="https://img.shields.io/badge/View_My_Portfolio-FF4500?style=for-the-badge&logo=react&logoColor=white&logoWidth=25" alt="Portfolio">
   </a>
+  <br>
+  <sub><i>🚀 Click to see my live projects & experience</i></sub>
 </p>
 
 ## 🌐 Socials:
