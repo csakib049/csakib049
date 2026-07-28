@@ -4,6 +4,11 @@
 <h1 align="center">Hi 👋, I'm Md.Sakib Chowdhury</h1>
 <h3 align="center">I love coding, building projects, and learning new tech. Currently diving deep into MERN Stack  & backend stuff. </h3>
 
+<p align="center">
+  <a href="https://protfolio-frontend-prv2.onrender.com/">
+    <img src="https://img.shields.io/badge/🌐_View_My_Portfolio-000000?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio">
+  </a>
+</p>
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white)](https://discordapp.com/users/1081408248197939363)
@@ -11,7 +16,6 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/s_a_a_k_i_b)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-sakib-chowdhury-3990791a8/)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:csakib049@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?logo=firefox&logoColor=white)](https://protfolio-frontend-prv2.onrender.com/)
 
 
 # 💻 Tech Stack:
